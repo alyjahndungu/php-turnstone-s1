@@ -1,0 +1,32 @@
+#view{
+    display: block;
+    padding: 23%;
+    line-break: normal;
+    
+}
+
+#view li{
+    display: block;
+    text-decoration: none;
+    margin: 20px;
+  
+}
+
+#view li input{
+    border-radius: 4em;
+}
+
+#view button{
+    border-radius: 4em;
+
+}
+
+header, main, footer {
+    padding-left: 240px;
+  }
+  
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
